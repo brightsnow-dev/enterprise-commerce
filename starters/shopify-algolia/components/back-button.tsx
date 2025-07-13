@@ -1,6 +1,7 @@
 import { ArrowIcon } from "components/icons/arrow-icon"
 import Link from "next/link"
 
+
 export function BackButton({ href = "/search", className }: { href?: string; className?: string }) {
   return (
     <Link href={href} className={className} aria-label="Go back" prefetch={false}>
